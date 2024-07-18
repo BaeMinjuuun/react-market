@@ -5,6 +5,7 @@ import ProductPage from "./product";
 import UploadPage from "./upload";
 import { Button } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
+import { formatNumber } from "./util/FormatNumber";
 
 function App() {
   const navigate = useNavigate();
